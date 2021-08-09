@@ -278,7 +278,7 @@ function getWholesomeMemes() {
             console.log(divEl);
             divEl.innerHTML =
               '<video autoplay controls mute loop width="' +
-              swiperCont.offsetWidth +
+              300 +
               '"> <source src="' +
               data[0].data.children[0].data.secure_media.reddit_video
                 .fallback_url +

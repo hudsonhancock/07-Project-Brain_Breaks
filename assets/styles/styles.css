@@ -260,6 +260,10 @@ img{
     width: 100%;
 }
 
+video{
+    width: 100%;
+}
+
 .swiper-wrapper{
 
 }
@@ -319,9 +323,10 @@ img{
         z-index: -1;
     }
 
-    /* video{
-        margin: 0 800px
-    } */
+    video{
+        /* margin: 0 800px */
+        width: 50%;
+    } 
 
     #countdown{
         width: 700px;
